@@ -1,0 +1,21 @@
+//- -----------------------------------//
+//-  MIXINS
+//- -----------------------------------//
+mixin pageTitle(title)
+    title= title + " | " + pageTitle
+
+mixin flexCard(cat, title, imgsrc, href, cta)
+    li.flexcard_item
+        .flexcard
+            .flexcard_image
+                img(src=imgsrc)
+            .flexcard_content
+                h6.flexcard_category= cat
+                h2.flexcard_heading= title
+                hr.flexcard_divider
+                if block
+                    block
+                else
+                    p No Description Provided
+                if buttons
+                    a.btn(href=href)= cta
