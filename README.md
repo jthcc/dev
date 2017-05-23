@@ -1,4 +1,4 @@
-Simple Gulp Build + SCSS + Pug
+Gulp + SCSS + Pug
 =======================
 A simple gulp build boilerplate for static html projects with SCSS compiling and CSS/JavaScript minification.
 
@@ -10,7 +10,7 @@ Install `gulp` globally.
 
 ## Installation
 ```markup
-    git clone https://github.com/ChynoDeluxe/gulp-scss-pug.git
+    git clone https://github.com/jthcc/dev.git
     cd gulp-scss-pug
     npm install
 ```
@@ -32,11 +32,3 @@ Create production ready `dist` folder.
 ```markup
     gulp deploy
 ```
-
-## Contact
-##### Chyno Deluxe
-* twitter: [@ChynoDeluxe](https://twitter.com/ChynoDeluxe)
-* website: [www.chynodeluxe.com](http://chynodeluxe.com)
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
